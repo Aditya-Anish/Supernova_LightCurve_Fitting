@@ -12,7 +12,7 @@ The project is broken down into three simple scripts that run sequentially:
 
 ## Requirements
 
-You will need Python (I used 3.12) and a few standard astrophysics and data science libraries. You can install them all at once:
+You will need Python (I used 3.12) and a few standard astrophysics and data science libraries. You can install them all at once by using this command in the terminal of the respective file:
 
 ```bash
 pip install sncosmo iminuit astropy pandas numpy matplotlib
