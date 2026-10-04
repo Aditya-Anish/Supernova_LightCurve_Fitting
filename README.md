@@ -12,19 +12,20 @@ The project is broken down into three simple scripts that run sequentially:
 
 ## Requirements
 
-You will need Python (I used 3.12) and a few standard astrophysics and data science libraries, use this command in your respective terminal to install them:
+You will need Python (I used 3.12) and a few standard astrophysics and data science libraries. You can install them all at once:
 
-'''bash
+```bash
 pip install sncosmo iminuit astropy pandas numpy matplotlib
-'''
+```
 
 ## How to run it
 
 Just clone the repository to your machine and run the scripts in order from the root directory:
-'''bash
+
+```bash
 python scripts/01_simulate_sn_data.py
 python scripts/02_fit_lightcurve.py
 python scripts/03_plot_supernova.py
-'''
+```
 
-The simulated telemetry will automatically save to the 'data/' folder, and the final light curve graphs will output to 'output/supernova_lightcurve.png'.
+The simulated telemetry will automatically save to the `data/` folder, and the final light curve graphs will output to `output/supernova_lightcurve.png`.
